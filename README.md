@@ -31,8 +31,10 @@ In this research work, we aim to answer the following research questions.
 
 
 # Implemtation Details
-## 本篇論文model: TLR_UI /TLR-M_UI model
-## 與過往論文model比較: TLR / TLR-M model
+- 本篇論文model: TLR_UI /TLR-M_UI model
+-  與過往論文model比較: TLR / TLR-M model
+---
+
 In this TLR-M_UI model implemenation, we have used transformer based attention machanism that has been implemented in python programing language. We use tensorflow, keras and attention machanism. 
 
 Environment: Linux 

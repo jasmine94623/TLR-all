@@ -1,8 +1,13 @@
-# TLM reference
+# TLR code reference
 1. [TLR](https://github.com/sajalhalder/TLR)
 2. [TLR-M](https://github.com/sajalhalder/TLR-M)
 3. [TLR_UI](https://github.com/sajalhalder/TLR-M_UI)
 4. [TLR-M_UI](https://github.com/sajalhalder/TLR-M_UI)
+
+更改某些參數值、新增Doc2Vec.py和增加Pert dataset
+# dataset reference
+- [Pert]https://sites.google.com/site/limkwanhui/datacode#ijcai15
+- [Melbourne]https://sites.google.com/site/limkwanhui/datacode#ijcai15
 
 # 本篇論文: TLR_UI/ TLR-M_UI
 In this work, we propose a multi-task, multi-head attention transformer model. The model recommends the next POIs to the target users and predicts queuing time to access the POIs simultaneously by considering user's mobility behaviors. The proposed model utilizes POIs description-based user personalised interest that can also solve the new categorical POI cold start problem. Extensive experiments on six real datasets show that the proposed models outperform the state-of-the-art baseline approaches in terms of precision, recall, and F1-score evaluation metrics. The model also predicts and minimizes the queuing time effectively.
@@ -25,14 +30,16 @@ In this research work, we aim to answer the following research questions.
 
 
 # Implemtation Details
+## 本篇論文model: TLR_UI /TLR-M_UI model
+## 與過往論文model比較: TLR / TLR-M model
 In this TLR-M_UI model implemenation, we have used transformer based attention machanism that has been implemented in python programing language. We use tensorflow, keras and attention machanism. 
 
 Environment: Linux 
 Required Packages: tensorflow: 2.4.1/pandas: 1.2.2 or requirements.txt
 
-TLR_UI model has been implemented in TLR.py file
+TLR model has been implemented in TLR.py file
 
-TLR-M_UI model has been implemented in TLRM.py file
+TLR-M model has been implemented in TLRM.py file
 
 TLR_UI model has been implemented in TLR_UI-POIDes.py file
 

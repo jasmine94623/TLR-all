@@ -1,6 +1,6 @@
 # TLR code reference
-更改某些參數值、新增Doc2Vec.py和增加Pert dataset
----
+> 更改某些參數值、新增Doc2Vec.py和增加Pert dataset
+
 1. [TLR](https://github.com/sajalhalder/TLR)
 2. [TLR-M](https://github.com/sajalhalder/TLR-M)
 3. [TLR_UI](https://github.com/sajalhalder/TLR-M_UI)
